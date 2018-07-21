@@ -19,3 +19,6 @@ PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0-service \
     android.hardware.vibrator@1.0-service \
     android.hardware.vibrator@1.0-impl
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/ramdisk/android.hardware.sensors@1.0-service.rc:/vendor/etc/init/android.hardware.sensors@1.0-service.rc
