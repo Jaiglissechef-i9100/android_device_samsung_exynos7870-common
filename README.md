@@ -9,7 +9,6 @@
 	Copyright (C) 2018 Mohi1117
 	Copyright (C) 2018 Oves Bilal
 	Copyright (C) 2018 Sean Hoyt
-	Copyright (C) 2018 Abhay Ruparel
 	Copyright (C) 2018 Matt Grf (McFy49)
 
 ### License
