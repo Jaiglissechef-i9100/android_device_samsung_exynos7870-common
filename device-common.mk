@@ -19,6 +19,9 @@ LOCAL_PATH := device/samsung/exynos7870-common
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
+# Debugging
+TARGET_BUILD_DEBUGGABLE := true
+
 # Inherit splitted common product configs
 -include $(LOCAL_PATH)/product/*.mk
 

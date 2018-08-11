@@ -13,8 +13,10 @@
 # limitations under the License.
 #
 
-# RIL
-BOARD_VENDOR := samsung
-BOARD_MODEM_TYPE := tss310
-BOARD_PROVIDES_LIBRIL := true
-ENABLE_VENDOR_RIL_SERVICE := true 
+# ADB
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.secure=0 \
+    ro.adb.secure=0 \
+    persist.service.adb.enable=1 \
+    persist.service.debuggable=1 \
+    persist.sys.usb.config=adb
